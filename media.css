@@ -1,0 +1,113 @@
+/* --LG-small laptops: 1024px 1280px */
+/* breakpoint 1150px/16px=72rem
+72rem * 16px =1152*/
+
+@media(max-width:72rem){
+  html{
+    /* --9px/16px=56.25% */
+    font-size:56.25% ;
+  }
+.grid-container{
+  column-gap: 3rem;
+}
+  
+.cta-sec{
+  margin-bottom: 20rem;
+}
+  
+}
+
+/* --md-tablets: 768px 1024px */
+/* breakpoint 860px/16px=51rem
+51rem * 16px =860px*/
+
+@media(max-width:51rem){
+  /* --8px/16px=50% */
+  html{
+    font-size: 50%;
+  }
+
+
+}
+
+
+/* --sm- landscape phone:576px 768px
+breakpoint 608px/16px=38rem 
+38rem * 16px = 608*/
+
+@media(max-width:38rem){
+  /* --7px/16px=43.75 */
+  
+  html{
+    font-size: 43.75%;
+
+  }
+
+  .feauture-header{
+    margin-top: 3rem;
+
+  }
+
+  
+  .grid-container{
+    row-gap: 10rem;
+  }
+  
+  .cta-card{
+    padding: 8rem 16rem ;
+  }
+  
+}
+
+
+/* --xs- potrait phone:576px 768px
+breakpoint 472px/16px=30rem
+30rem * 16px = 480*/
+
+@media(max-width:38rem){
+  /* --6px/16px=37.5*/
+  
+  html{
+    font-size: 37.5%;
+
+  }
+
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+
+  .imgf{
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .feauture-header{
+    margin-top: 3rem;
+
+  }
+
+
+
+  .br{
+    display: none;
+  }
+
+  .nt{
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+}
+  
+
+
